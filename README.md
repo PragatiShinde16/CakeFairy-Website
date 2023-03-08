@@ -1,3 +1,3 @@
 # CakeFairy Website
 
-# CakeFairy Website using HTML and CSS
+# CakeFairy Website using HTML and CSS.
