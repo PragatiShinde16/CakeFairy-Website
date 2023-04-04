@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeFairy Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="CSS/phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Lato:wght@700&family=Lobster&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Image/Logo/Logo.png" alt=CakeFairy" width="80px" height="80px">
+        </div>
+        <ul>
+            <!-- li.item{<a href ="#"></a>}*5 -->
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Section Home -->
+    <section id="home">
+        <h1 class="h-primary">Welcome to Cake Fairy</h1>
+        <p>Cakes are special. <br> Every birthday, every celebration ends with something sweet,  a cake, <br> and people remember. It’s all about the memories. </p>
+        <button class="btn">Order Now</button>
+    </section>
+    <!-- Section Home End-->
+
+    <!-- Section Services -->
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="/Web Developement Tutorial/Project/Cake Fairy Website/Image/Services/cake.jpg" alt="">
+                <h2 class="h-secondary center">Cake Delivery</h2>
+                <p class="center">We will deliver the cake at your place within the time so order the cake in our cake fairy.</p>
+            </div>
+            <div class="box">
+                <img src="/Web Developement Tutorial/Project/Cake Fairy Website/Image/Services/pastry.jpg" alt="">
+                <h2 class="h-secondary center">Pastry Delivery</h2>
+                <p class="center">We will also deliver the pastry at your place within time so order the cake in our cake fairy. </p>
+                </div>
+                <div class="box">
+                    <img src="/Web Developement Tutorial/Project/Cake Fairy Website/Image/Services/decoration.jpg" alt="">
+                    <h2 class="h-secondary center">Decoration</h2>
+                    <p class="center">We will decorate the all type events like birthday celebration, marriage event, Parties etc</p>
+                </div>
+        </div>
+    </section>
+    <!-- Section Services end -->
+
+    <!-- Client Section start -->
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="Image/Logo/Sweetcake.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="Image/Logo/CakeyBakery.jpg" alt="Our Client">
+            </div>
+
+            <div class="client-item">
+                <img src="Image/Logo/Cook.jfif" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="Image/Logo/Cheescake.jfif" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="Image/Logo/RovenCake.png" alt="Our Client">
+            </div>
+        </div>
+    </section>
+    <!-- Client Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="submit" method="post">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="contact" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <!-- <div class="form-group">
+                    <button class="btn">Send</button>
+                </div> -->
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section start -->
+
+    <!-- Footer Start-->
+    <footer>
+        <div class="center">
+            Copyright &copy; www.cakefairy.com. All rights reserved!
+        </div>
+    </footer>
+    <!-- Footer end -->
+</body>
+
+</html>
